@@ -6,7 +6,7 @@
   // margin: $archive-margin;
   // max-width: $archive-max-width;
   margin: 0 5em 3em;
-  background-color: white;
+  background-color: $tango-black-bg;
   padding: 1em 5em 5em 5em;
 
   .archive-title {
@@ -33,7 +33,7 @@
 
   .collection-title {
     font-family: $global-serif-font-family;
-  
+
     .archive-year {
       margin: 2em 0 0;
       font-weight: 400;
@@ -59,7 +59,7 @@
     .archive-post-title {
       display: table-cell;
       vertical-align: middle;
-      
+
       .archive-post-link {
         color: $theme-color;
       }
@@ -86,13 +86,13 @@
 
   .more-post {
     text-align: right;
-    
+
     .more-post-link {
       margin-top: 1em;
       color: $theme-color;
       font-size: 1.1em;
       font-family: $global-serif-font-family;
-    
+
       &:hover {
         border-bottom: $post-readMore-border-bottom;
       }

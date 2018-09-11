@@ -9,10 +9,12 @@
     font-size: $post-title-font-size;
     font-weight: $post-title-font-weight;
     font-family: $global-serif-font-family;
+    color: $tango-alum-1
   }
 
   .post-link {
     @include underline-from-center;
+    color: inherit
   }
 
   .post-meta {

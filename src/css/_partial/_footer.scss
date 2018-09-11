@@ -3,7 +3,7 @@
 // =============================
 
 .footer {
-  margin-top: $footer-margin-top;
+  background: $tango-black-bg;
 
   @import "_footer/social";
   @import "_footer/copyright";

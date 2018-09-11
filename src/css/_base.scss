@@ -13,7 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: $global-lineheight;
-  color: $global-font-color;
+  color: $tango-alum-2;
   background: $global-background;
   scroll-behavior: smooth;
   // border-top: 3px solid $theme-color;
@@ -26,13 +26,13 @@ body {
 }
 
 ::selection {
-  background: $theme-color;
-  color: #fff; 
+  background: $tango-alum-5;
+  color: #fff;
 }
 
 // ::-webkit-scrollbar {
 //   width: 8px;
-//   height: 6px; 
+//   height: 6px;
 // }
 
 // ::-webkit-scrollbar-thumb {
@@ -97,9 +97,9 @@ a {
 }
 
 .bg-llight {
-  background-color: #f2f2f5;
+  background-color: $tango-black;
 }
 
 .bg-white {
-  background-color: #FFF;
+  background-color: $tango-black-bg;
 }

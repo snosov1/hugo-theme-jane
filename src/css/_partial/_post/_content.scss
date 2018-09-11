@@ -44,8 +44,8 @@
   blockquote {
     margin: 1em auto;
     padding: 0.2em 2em 0.2em 3em;
-    color: #555555;
-    background-color: #F6F6F6;
+    color: $tango-black;
+    background-color: $tango-alum-3;
     border-left: 4px solid #999;
     position: relative;
     line-height: 1.6;
@@ -84,16 +84,16 @@
       width: 100%;
 
     td {
-      background-color: #F0E4E4;
-      border: 3px solid #FFF;
+      background-color: $tango-alum-6;
+      border: 3px solid $tango-alum-4;
       padding: 5px 15px;
     }
 
     th {
       text-align: left;
-      background-color: #A65B5B;
-      color: #FFF;
-      border: 3px solid #FFF;
+      background-color: $tango-alum-2;
+      color: $tango-black-bg;
+      border: 3px solid $tango-alum-4;
       padding: 5px 15px;
     }
   }

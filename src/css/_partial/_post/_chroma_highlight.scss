@@ -51,7 +51,7 @@
 /* Keyword */
 
 .chroma .k {
-    color: #859900
+    color: $tango-cham-1
 }
 
 /* KeywordConstant */
@@ -89,14 +89,14 @@
 /* KeywordType */
 
 .chroma .kt {
-    color: #859900;
+    color: $tango-blue-1;
     font-weight: bold
 }
 
 /* Name */
 
 .chroma .n {
-    color: #268bd2
+    color: $tango-white
 }
 
 /* NameAttribute */
@@ -108,7 +108,7 @@
 /* NameBuiltin */
 
 .chroma .nb {
-    color: #cb4b16
+    color: $tango-cham-1
 }
 
 /* NameBuiltinPseudo */
@@ -150,7 +150,7 @@
 /* NameFunction */
 
 .chroma .nf {
-    color: #268bd2
+    color: $tango-plum-0
 }
 
 /* NameFunctionMagic */
@@ -235,13 +235,13 @@
 /* LiteralString */
 
 .chroma .s {
-    color: #2aa198
+    color: $tango-choc-1
 }
 
 /* LiteralStringAffix */
 
 .chroma .sa {
-    color: #2aa198
+    color: $tango-choc-1
 }
 
 /* LiteralStringBacktick */
@@ -347,8 +347,7 @@
 /* LiteralNumberInteger */
 
 .chroma .mi {
-    color: #2aa198;
-    font-weight: bold
+    color: $tango-white;
 }
 
 /* LiteralNumberIntegerLong */
@@ -374,50 +373,48 @@
 /* Comment */
 
 .chroma .c {
-    color: #93a1a1;
+    color: $tango-cham-3;
     font-style: italic
 }
 
 /* CommentHashbang */
 
 .chroma .ch {
-    color: #93a1a1;
+    color: $tango-cham-3;
     font-style: italic
 }
 
 /* CommentMultiline */
 
 .chroma .cm {
-    color: #93a1a1;
+    color: $tango-cham-3;
     font-style: italic
 }
 
 /* CommentSingle */
 
 .chroma .c1 {
-    color: #93a1a1;
+    color: $tango-cham-3;
     font-style: italic
 }
 
 /* CommentSpecial */
 
 .chroma .cs {
-    color: #93a1a1;
+    color: $tango-cham-3;
     font-style: italic
 }
 
 /* CommentPreproc */
 
 .chroma .cp {
-    color: #93a1a1;
-    font-style: italic
+    color: $tango-plum-1;
 }
 
 /* CommentPreprocFile */
 
 .chroma .cpf {
-    color: #93a1a1;
-    font-style: italic
+    color: $tango-choc-1;
 }
 
 /* Generic */

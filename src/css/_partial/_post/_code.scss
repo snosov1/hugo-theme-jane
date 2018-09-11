@@ -7,7 +7,7 @@ code {
   padding: 0 7px;
   background: $code-background;
   border-radius: 4px;
-  color: $code-color;
+  color: $tango-butter-2;
 }
 
 code, pre {
@@ -26,7 +26,7 @@ code, pre {
 
   code {
     padding: 0;     /* remove normal code padding */
-    color: inherit;
+    color: $tango-butter-2;
   }
 
   pre {
