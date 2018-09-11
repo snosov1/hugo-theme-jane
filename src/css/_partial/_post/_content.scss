@@ -51,6 +51,10 @@
     line-height: 1.6;
     font-family: Open Sans;
 
+    a {
+        color: $tango-blue-3
+    }
+
     &::before {
       font-family: Arial;
       content: "\201C";
