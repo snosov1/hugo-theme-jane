@@ -29,7 +29,7 @@
   </header>
   <!-- Content -->
   <div class="post-content">
-    {{ if .Site.Params.homeFullContent }}
+    {{ if .Page.Params.isshort }}
     <div class="post-summary">
       {{ .Content }}
     </div>

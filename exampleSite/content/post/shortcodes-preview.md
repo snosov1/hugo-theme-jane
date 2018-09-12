@@ -6,6 +6,8 @@ draft: false
 tags: ["preview", "shortcodes", "tag-6"]
 categories: ["docs", "shortcodes", "index"]
 
+isshort: true
+
 menu:
   main:
     parent: "docs"
