@@ -9,7 +9,7 @@
   left: 0;
   width: 100%;
   height: $mobile-navbar-height;
-  background: $white;
+  background: $tango-black-bg;
   box-shadow: 0px 2px 2px $gray;
   text-align: center;
   transition: transform 300ms ease;
@@ -45,19 +45,19 @@
 }
 
 .mobile-menu {
-  background-color: rgba($deputy-color, 0.5);
+  background-color: rgba($tango-black, 0.5);
 
   .mobile-menu-list {
     position: relative;
     list-style: none;
     margin-top: 50px;
     padding: 0;
-    border-top: 1px solid $deputy-color;
+    border-top: 1px solid $tango-alum-4;
 
     .mobile-menu-item > a {
       padding: 10px 30px;
       display: block;
-      border-bottom: 1px solid $deputy-color;
+      border-bottom: 1px solid $tango-alum-4;
     }
 
     a {
@@ -74,7 +74,7 @@
 // mobile sub-menu style
 .mobile-menu-parent {
   position: relative;
-  border-bottom: 1px solid $deputy-color;
+  border-bottom: 1px solid $tango-alum-4;
 
   a {
     margin-right: 40px;
@@ -91,7 +91,7 @@
     right: 0;
     top: 0;
     z-index: 2;
-    border-left: 1px solid $deputy-color;
+    border-left: 1px solid $tango-alum-4;
 
     &:before {
       content: '';
@@ -116,7 +116,7 @@
 .mobile-submenu-list {
   display: none;
   padding-left: 1em;
-  border-bottom: 1px solid $deputy-color;
+  border-bottom: 1px solid $tango-alum-4;
   list-style: none;
 
   li > a {
