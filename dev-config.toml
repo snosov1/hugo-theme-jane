@@ -128,6 +128,7 @@ defaultContentLanguage = "en"  # Default language to use (if you setup multiling
 
   # show word count and read time ?                       # 是否显示字数统计与阅读时间
   moreMeta = true
+  sourceRepo = "https://github.com/snosov1/lair/tree/master/content"
 
   # show language chooser in menu
   showMenuLanguageChooser = true

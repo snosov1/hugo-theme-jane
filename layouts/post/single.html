@@ -20,6 +20,11 @@
         {{ if .Site.Params.moreMeta -}}
           <span class="more-meta"> {{ i18n "wordCount" .WordCount }} </span>
           <span class="more-meta"> {{ i18n "readingTime" .ReadingTime }} </span>
+          {{ if .Site.Params.sourceRepo -}}
+          <span class="more-meta">
+            <a href="{{ (printf "%s/%s" .Site.Params.sourceRepo .File.Path) }}" target="_blank" rel="noopener noreferrer"> <i class="iconfont icon-new-window"></i> </a>
+          </span>
+          {{- end }}
         {{- end }}
 
         <!-- Counter busuanzi -->
