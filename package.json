@@ -7,7 +7,7 @@
     "build": "webpack",
     "demo": "hugo --contentDir='./exampleSite/content' --config='dev-config.toml' ",
     "dev:assets": "webpack --watch --display='errors-only' ",
-    "dev:site": "hugo server --buildDrafts --contentDir='./exampleSite/content' --config='dev-config.toml' ",
+    "dev:site": "hugo server --bind=0.0.0.0 --buildDrafts --contentDir='./exampleSite/content' --config='dev-config.toml' ",
     "dev": "concurrently 'npm run dev:assets' 'npm run dev:site' ",
     "clean": "rm -rf ./public",
     "contributors:add": "all-contributors add",
